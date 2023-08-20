@@ -3,9 +3,6 @@
   --font-Montserrat:'Montserrat', sans-serif;
   --font-Lora:'Lora', serif; 
 }
-body{
-  background-color:#00000003;  
-}
 header{
   width: 100%;
 }
