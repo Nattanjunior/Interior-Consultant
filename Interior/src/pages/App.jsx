@@ -30,7 +30,7 @@ function App() {
         </a>
 
         <section>
-          <div className='photoIsHouse'>
+          <div>
           <img src={img} alt="" className='wrapper'/>
           </div>
           
