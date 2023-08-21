@@ -4,5 +4,171 @@
   --font-Lora:'Lora', serif; 
 }
 header{
-  width: 100%;
+  display: flex;
+  justify-content: space-around ;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  font-family: var(--font-Montserrat);
+  position: absolute;
+  top: 46px;
+}
+h1{
+  width: 365px;
+  height: 61px;
+  position: relative;
+  top: 381px;
+  left: 77px;
+
+  font-family: var(--font-Lora);
+  font-size: 48px;  
+  font-weight: 500;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+a{
+  width: 103px;
+  height: 22px;
+  position: absolute;
+  top: 675px;
+  left: 77px;
+
+  text-decoration: none;
+  font-family: var(--font-Montserrat);
+  font-size: 18px;
+  font-weight: 700; 
+  line-height: 22px;  
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFF;
+
+
+}
+footer{
+  width: 287px;
+  height: 17px;
+  position: absolute;
+  top: 1039px;
+  left: 577px;
+
+  font-family: var(--font-Montserrat);
+  font-weight:500;
+  font-size: 14px;
+  Line-height:17.07px;
+  text-align: center;
+
+  color: #A9A9A9;
+}
+.arrow{
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top:-18.5px ; 
+  left: 111px;
+
+}
+.ParaTitle{
+  width: 410px;
+  height: 145px;
+  position: relative;
+  top: 412px;
+  left: 77px;
+
+  font-family: var(--font-Montserrat);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.rect{
+  width: 102px;
+  height: 32px;
+  position: absolute;
+  top: 42px;
+  left: 77px;
+  border: 1px solid #FFFF;
+  font-family:var(--font-Crimson);
+  font-size: 14px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  width: 737px;
+  height: 555px;
+  position: absolute;
+  top:245px;
+  left: 576px;
+}
+.container{
+  width: 410px;
+  height: 189px;
+  position: absolute;
+  top: 722px;
+  left: 875px;
+  background: #181719;
+  display: flex;
+  box-shadow: 0px 4px 4px 0px #00000086;
+}
+.imgPeaple{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  border-radius: 37px
+
+}
+.Name{
+  width: 95px;
+  height: 17px;
+  position: relative;
+  top: 30px;
+  left: 90px;
+  font-family: var(--font-Montserrat);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.office{
+  
+  width: 102px;
+  height: 15px;
+  position: absolute;
+  top: 50px;
+  left: 90px;
+
+  
+  font-family: var(--font-Montserrat);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: gray;
+}
+.descricao{
+  width: 287px;
+  height: 62px;
+  position: absolute;
+  top: 105px;
+  left: 17px;
+  text-align: left;
+
+  font-family: var(--font-Lora);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
 }
