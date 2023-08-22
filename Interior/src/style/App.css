@@ -10,24 +10,30 @@ header{
 ul{
   list-style: none;
   display: flex;
-  gap: 170px;
+  gap: 130px;
   font-family: var(--font-Montserrat);
   position: absolute;
   top: 46px;
-  box-sizing: border-box;
 }
-li{
-  border-bottom: 2px solid #FFFF;
-  width: 0;
+nav a{
   position: relative;
-  transition:all ease-in-out 1s;
+  text-decoration: none;
+  color: #FFFFFF;
 }
-li:hover{
-  border-bottom: 2px solid #FFFF;
-  transition: width ease-in-out 2s;
-  margin-left:0px ;
+nav a::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  transition: 0.5s ease-in-out;
+}
+nav a:hover::after{
   width: 100%;
 }
+
 h1{
   width: 365px;
   height: 61px;
@@ -43,7 +49,7 @@ h1{
   text-align: left;
 }
 
-a{
+.link{
   width: 103px;
   height: 22px;
   position: absolute;
@@ -124,6 +130,7 @@ footer{
 @keyframes div{
   from{
     top: 700px;
+    opacity: 0;
   }
 }
 .wrapper{

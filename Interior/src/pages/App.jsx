@@ -13,10 +13,10 @@ function App() {
         <p className='rect'>THIS INTERIOR</p>
         <nav>
           <ul>
-          <li>Home</li>
-          <li>Collection</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Collection</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
           </ul>
           </nav>
       </header>
@@ -25,7 +25,7 @@ function App() {
         <p className='ParaTitle'>
         A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
         </p>
-        <a href="#">
+        <a href="#" className='link'>
           <p>Read more <img className='arrow' src= {imgArrow} alt="" /> </p>
         </a>
 
