@@ -1,17 +1,21 @@
 import '../style/App.css'
+import { useState } from 'react'
 import img from '../images/photo1.png'
 import imgArrow from '../images/001-right-arrow.png'
 import imgMenu  from '../images/menu.png'
 import imgPeaple from '../images/photo2.png'
+import { Div } from '../components/mobile'
+import { MenuHamburguer } from '../components/menu'
 
 function App() {
   
-
   return (
-    <div>
+    <Div >
       <header>
         <p className='rect'>THIS INTERIOR</p>
-        <nav>
+        <MenuHamburguer/>
+
+        <nav className='NavBar'>
           <ul>
           <li><a href="">Home</a></li>
           <li><a href="">Collection</a></li>
@@ -19,6 +23,7 @@ function App() {
           <li><a href="">Contact</a></li>
           </ul>
           </nav>
+          <img className='menu' src={imgMenu} alt="logo" /> 
       </header>
       <main>
         <h1>Modern interior</h1>
@@ -44,7 +49,7 @@ function App() {
       </main>
 
       <footer>created by - NattanJunior</footer>
-    </div>
+    </Div>
   )
 }
 
