@@ -10,10 +10,23 @@ header{
 ul{
   list-style: none;
   display: flex;
-  gap: 100px;
+  gap: 170px;
   font-family: var(--font-Montserrat);
   position: absolute;
   top: 46px;
+  box-sizing: border-box;
+}
+li{
+  border-bottom: 2px solid #FFFF;
+  width: 0;
+  position: relative;
+  transition:all ease-in-out 1s;
+}
+li:hover{
+  border-bottom: 2px solid #FFFF;
+  transition: width ease-in-out 2s;
+  margin-left:0px ;
+  width: 100%;
 }
 h1{
   width: 365px;
@@ -29,6 +42,7 @@ h1{
   letter-spacing: 0em;
   text-align: left;
 }
+
 a{
   width: 103px;
   height: 22px;
@@ -109,10 +123,7 @@ footer{
 }
 @keyframes div{
   from{
-    opacity: 0;
-    top: 600px;
-  }to{
-    opacity: 1;
+    top: 700px;
   }
 }
 .wrapper{
@@ -122,7 +133,7 @@ footer{
   top:245px;
   left: 576px;
   animation-name: image;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 .container{
   width: 410px;
@@ -134,7 +145,7 @@ footer{
   display: flex;
   box-shadow: 0px 4px 4px 0px #00000086;
   animation-name: div;
-  animation-duration: 4s;
+  animation-duration: 3s;
 }
 .imgPeaple{
   width: 50px;
@@ -159,7 +170,6 @@ footer{
   text-align: left;
 }
 .office{
-  
   width: 102px;
   height: 15px;
   position: absolute;
@@ -190,6 +200,4 @@ footer{
   line-height: 31px;
   letter-spacing: 0em;
   text-align: left;
-
-
 }
