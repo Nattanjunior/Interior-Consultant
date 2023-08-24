@@ -12,8 +12,9 @@ export const Div = styled.div`
     border: 1px solid;
 
 }
-nav{
-    display: none;
+nav li {
+    display:flex;
+    gap: 100px;
 }
 .imgMenu{
     display: block;
@@ -21,10 +22,15 @@ nav{
     height: 38px;
     position: absolute;
     top: 16px;
-    left: 129px;
+    left: 289px;
 }
 .imgMenu:hover{
     cursor: pointer;
+}
+#nav-menu{
+    background-color: #000000;
+    width: 100vw;
+    height:100vh;
 }
 h1{
     width: 274px;

@@ -5,7 +5,8 @@ import imgArrow from '../images/001-right-arrow.png'
 import imgMenu  from '../images/menu.png'
 import imgPeaple from '../images/photo2.png'
 import { Div } from '../components/mobile'
-import { MenuHamburguer } from '../components/menu'
+import { Menu } from '../components/menu'
+
 
 function App() {
   
@@ -14,13 +15,9 @@ function App() {
     <Div>
       <header>
         <p className='rect'>THIS INTERIOR</p>
-        
-        <div className='divMenu'>
-          <img className="imgMenu" src={imgMenu} alt=""/>
-        </div>
         <nav >   
         
-          <MenuHamburguer/>
+        <Menu/>
         </nav>
           
       </header>

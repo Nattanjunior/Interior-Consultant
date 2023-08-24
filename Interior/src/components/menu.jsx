@@ -1,33 +1,36 @@
 import { useState } from "react";
-import menuIcon from '../images/menu.png'
-import  '../style/App.css' 
+import imgMenu from '../images/menu.png'
+import '../style/App.css'
 
-export  const MenuHamburguer = ()=>{
+export const Menu = ()=>{
     const [MenuOpen, setMenuOpen] = useState(false)
 
     const toggleMenu = ()=>{
         setMenuOpen(!MenuOpen)
-        const element = document.getElementsByClassName('NavBar')
-        return element
-
+        if(MenuOpen == true){
+            const menu = document.getElementById('nav-menu')
+            menu.style.display = 'block'
+           
+        }else{
+            const menu = document.getElementById('nav-menu')
+            menu.style.display = 'none'
+        }
     }
-
     return(
-        <div className={`hamburguer-menu ${MenuOpen? 'open': " "}`}>
-
-        <div className="menu-icon" onClick={toggleMenu}>
-
-        </div>
-        <nav className="NavBar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Collection</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-
+        <div>
+            <div>
+                <img className='imgMenu' src={imgMenu} alt=""  onClick={toggleMenu}/>
+            </div>
+            <div id="nav-menu">
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Collection</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     )
-
-} 
+}
