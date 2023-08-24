@@ -52,7 +52,12 @@ h1{
   letter-spacing: 0em;
   text-align: left;
 }
-
+.imgMenu{
+  display: none;
+}
+.divMenu{
+  position: absolute;
+}
 .link{
   width: 103px;
   height: 22px;
@@ -120,7 +125,6 @@ footer{
   justify-content: center;
   align-items: center;
 }
-
 
 .wrapper{
   width: 737px;

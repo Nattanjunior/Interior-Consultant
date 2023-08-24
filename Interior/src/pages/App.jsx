@@ -9,21 +9,20 @@ import { MenuHamburguer } from '../components/menu'
 
 function App() {
   
+  
   return (
-    <Div >
+    <Div>
       <header>
         <p className='rect'>THIS INTERIOR</p>
-        <MenuHamburguer/>
-
-        <nav className='NavBar'>
-          <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Collection</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          </ul>
-          </nav>
-          <img className='menu' src={imgMenu} alt="logo" /> 
+        
+        <div className='divMenu'>
+          <img className="imgMenu" src={imgMenu} alt=""/>
+        </div>
+        <nav >   
+        
+          <MenuHamburguer/>
+        </nav>
+          
       </header>
       <main>
         <h1>Modern interior</h1>

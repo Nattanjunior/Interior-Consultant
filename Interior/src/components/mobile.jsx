@@ -15,14 +15,15 @@ export const Div = styled.div`
 nav{
     display: none;
 }
-.menu{
+.imgMenu{
     display: block;
     width: 38px;
     height: 38px;
+    position: absolute;
     top: 16px;
-    left: 329px;
+    left: 129px;
 }
-.menu:hover{
+.imgMenu:hover{
     cursor: pointer;
 }
 h1{
@@ -115,6 +116,7 @@ footer{
     top: 735px;
     left: 44px;
 }
+
 
 }
 

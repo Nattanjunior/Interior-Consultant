@@ -1,18 +1,24 @@
 import { useState } from "react";
-import Menu from '../images/Menu.png'
+import menuIcon from '../images/menu.png'
+import  '../style/App.css' 
 
 export  const MenuHamburguer = ()=>{
     const [MenuOpen, setMenuOpen] = useState(false)
 
     const toggleMenu = ()=>{
         setMenuOpen(!MenuOpen)
+        const element = document.getElementsByClassName('NavBar')
+        return element
+
     }
 
     return(
         <div className={`hamburguer-menu ${MenuOpen? 'open': " "}`}>
 
+        <div className="menu-icon" onClick={toggleMenu}>
+
+        </div>
         <nav className="NavBar">
-            <img src={Menu} alt=""  onClick={toggleMenu}/>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Collection</a></li>
