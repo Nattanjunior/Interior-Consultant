@@ -11,6 +11,9 @@ header{
   display: none;
   position: absolute;
 }
+#imagem-X{
+  display: none;
+}
 ul{
   list-style: none;
   display: flex;

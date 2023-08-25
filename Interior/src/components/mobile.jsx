@@ -12,25 +12,77 @@ export const Div = styled.div`
     border: 1px solid;
 
 }
-nav li {
-    display:flex;
-    gap: 100px;
-}
 .imgMenu{
     display: block;
     width: 38px;
     height: 38px;
     position: absolute;
     top: 16px;
-    left: 289px;
+    left: 309px;
 }
 .imgMenu:hover{
     cursor: pointer;
 }
 #nav-menu{
-    background-color: #000000;
-    width: 100vw;
-    height:100vh;
+    display: none;
+    background-color: #181719;
+    width:100%;
+    height:118%;
+    position:absolute;
+    left:0px;
+    z-index: 1;
+    overflow: hidden;
+}
+.Home:hover,
+.Collection:hover,
+.About:hover,
+.Contact:hover{
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.Home,
+.Collection,
+.About,
+.Contact{
+    font-size:18px;
+    position: absolute;
+}
+.Home{
+    width: 57px;
+    height: 22px;    
+    top: 158px;
+    left: 159px;
+}
+.Collection{
+    width: 92px;
+    height: 22px;
+    top: 212px;
+    left: 142px;
+}
+.About{
+    width: 57px;
+    height: 22px;
+    top: 266px;
+    left: 159px;
+}
+.Contact{
+    width: 73px;
+    height: 22px;
+    top: 320px;
+    left: 151px;
+}
+#imagem-X{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 16px;
+    display: block;
+    left: 315px;
+}
+#imagem-X:hover{
+    cursor: pointer;
 }
 h1{
     width: 274px;
